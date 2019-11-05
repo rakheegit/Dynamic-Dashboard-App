@@ -1,0 +1,105 @@
+body {
+  background-color: 	#F6F6F6;
+}
+
+h2 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #1467D1;
+    font-family: fangsong
+}
+
+h4 {
+    width: 100%;
+    color: #405879;
+    text-align: center
+  }
+
+  line {
+    stroke: #d6d6d5 !important;
+  }
+
+  .chart-button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #1467D1;
+  border-radius: 8px;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0px 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.chart-button:hover {
+  background-color: #1467D1;
+  color: white;
+}
+
+div .select {
+    text-align: center;
+  }
+ 
+div .drag {
+   cursor: move, pointer;
+   flex-wrap: "wrap";
+   position: relative;
+   display: flex;
+   align-items: flex-start;
+}
+
+ ul {
+  margin-left: 30px;
+  list-style: none;
+}
+
+ li {
+  background-color: #383838;
+  padding: 10px 10px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  line-height: 1;
+  padding: 15;
+  width: 100%
+}
+
+#close {
+  display: none;
+  top:-5px;
+  right:0;
+  position: absolute
+}
+
+#collapse {
+  display: block;
+  top:-5px;
+  left:30em;
+  position: absolute
+}
+
+.drag:hover #close {
+  display: block;
+  color: red
+}
+
+#dummy {
+  width: 388px;
+  height: 20px
+}
+
+#nested {
+  vertical-align:middle;
+  text-align:center;
+  font-family: fangsong;
+  font-size: 100%
+}
+
+
+
+
